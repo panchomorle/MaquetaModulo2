@@ -39,9 +39,12 @@ font-family: 'Montserrat Alternates', sans-serif; H2 */
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 1rem;
 }
-/* .color-overlay:first-child{
-    
-} */
+
+.cont-img{
+    position: relative;
+    top: -50px;
+    z-index: 99;
+}
 
 .separador{
     margin: auto;
@@ -74,7 +77,6 @@ font-family: 'Montserrat Alternates', sans-serif; H2 */
 
 .cuadrado{
     height: 200px;
-    width: 100%;
     margin: 5px;
     background-color:beige;
     border: 1px solid black;
