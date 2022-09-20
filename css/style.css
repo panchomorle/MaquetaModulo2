@@ -15,14 +15,19 @@ font-family: 'Montserrat Alternates', sans-serif; H2 */
     
 }
 .icono:hover{
-    color: blue;
+    color: rgb(162, 162, 255);
+    transition: 0.3s;
 }
 
 p{
     font-size: 18px;
+    
 }
 .navbar-brand{
-    color: deepskyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: medium;
+    color: rgb(172, 172, 172);
 }
 
 .masthead{
@@ -62,7 +67,7 @@ p{
     opacity: 1;
 }
 .navbar{
-    max-height: 15%;
+    max-height: 75px;
     width: 100%;
 }
 .nav-item{
@@ -74,10 +79,18 @@ p{
 .navbar-text{
     position: relative;
     top: 5px;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     justify-content: center;
     align-items: center ;
+}
+.boton-hover:hover{
+    background-color: #444444;
+    color: #eeeeee;
+    transition: 0.3s;
+}
+.btn-edit{
+    border-radius: 100%;
 }
 
 .cuadrado{
@@ -85,16 +98,28 @@ p{
     background-color:rgb(243, 243, 213);
     /* border: 1px solid black; */
     border-radius: 10px;
+    height: 100%;
+}
 
+.contenido{
+    padding: 1rem 2rem 1rem 2rem;
+    text-align: center;
+    max-width: 600px;
+}
+
+.borde{
+    padding: 1.5rem;
+    border: 1px solid black;
+    border-radius: 30px;
 }
 
 .protrude{
     position: relative;
-    top: -80px;
+    margin-top: -80px;
     z-index: 99;
 }
 
-.titulobio{
+.titulo{
     text-align: center;
     padding: 15px;
     font-family: 'Montserrat Alternates', sans-serif;
@@ -102,6 +127,13 @@ p{
 }
 .centrar{
     display: flex;
+    align-items: center;
     place-content: center;
     justify-items: center;
 }
+
+@media (min-width: 992px) {
+    #menu{
+        max-height: 75px;
+    }
+ }
