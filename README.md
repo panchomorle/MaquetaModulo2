@@ -1,2 +1,2 @@
 # MaquetaModulo2
-Maqueta de Fron-End del modulo 2 de #YoProgramo
+Maqueta de Front-End del modulo 2 de #YoProgramo
